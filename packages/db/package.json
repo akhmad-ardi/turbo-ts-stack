@@ -1,0 +1,25 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "keywords": [],
+  "author": "akhmad-ardi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "4.5.2",
+    "ts-node": "10.7.0"
+  },
+  "dependencies": {
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "0.3.17"
+  }
+}
